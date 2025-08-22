@@ -1,0 +1,107 @@
+[
+  {
+    "date": "2025-08-22",
+    "authors": [
+      {
+        "name": "J.K. Rowling",
+        "books": [
+          "Harry Potter and the Sorcerer's Stone",
+          "Harry Potter and the Chamber of Secrets",
+          "Harry Potter and the Prisoner of Azkaban",
+          "Harry Potter and the Goblet of Fire"
+        ]
+      },
+      {
+        "name": "Stephen King",
+        "books": [
+          "The Shining",
+          "It",
+          "Carrie",
+          "Misery"
+        ]
+      },
+      {
+        "name": "Agatha Christie",
+        "books": [
+          "And Then There Were None",
+          "Murder on the Orient Express",
+          "The A.B.C. Murders",
+          "The Murder of Roger Ackroyd"
+        ]
+      },
+      {
+        "name": "Jane Austen",
+        "books": [
+          "Pride and Prejudice",
+          "Sense and Sensibility",
+          "Emma",
+          "Mansfield Park"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2025-08-23",
+    "authors": [
+      {
+        "name": "J.R.R. Tolkien",
+        "books": [
+          "The Hobbit",
+          "The Fellowship of the Ring",
+          "The Two Towers",
+          "The Return of the King"
+        ]
+      },
+      {
+        "name": "George Orwell",
+        "books": [
+          "Nineteen Eighty-Four",
+          "Animal Farm",
+          "Down and Out in Paris and London",
+          "Burmese Days"
+        ]
+      },
+      {
+        "name": "Isaac Asimov",
+        "books": [
+          "I, Robot",
+          "Foundation",
+          "The Caves of Steel",
+          "The Naked Sun"
+        ]
+      },
+      {
+        "name": "Haruki Murakami",
+        "books": [
+          "Norwegian Wood",
+          "Kafka on the Shore",
+          "1Q84",
+          "The Wind-Up Bird Chronicle"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2025-08-24",
+    "authors": [
+      {
+        "name": "Gabriel García Márquez",
+        "books": [
+          "One Hundred Years of Solitude",
+          "Love in the Time of Cholera",
+          "Chronicle of a Death Foretold",
+          "The Autumn of the Patriarch"
+        ]
+      },
+      {
+        "name": "Virginia Woolf",
+        "books": [
+          "Mrs Dalloway",
+          "To the Lighthouse",
+          "A Room of One's Own",
+          "Orlando"
+        ]
+      }
+    ]
+  }
+]
