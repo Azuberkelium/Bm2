@@ -1,106 +1,401 @@
 [
   {
-    "date": "2025-08-22",
     "authors": [
       {
-        "name": "J.K. Rowling",
-        "books": [
-          "Harry Potter and the Sorcerer's Stone",
-          "Harry Potter and the Chamber of Secrets",
-          "Harry Potter and the Prisoner of Azkaban",
-          "Harry Potter and the Goblet of Fire"
-        ]
-      },
-      {
-        "name": "Stephen King",
-        "books": [
-          "The Shining",
-          "It",
-          "Carrie",
-          "Misery"
-        ]
-      },
-      {
         "name": "Agatha Christie",
-        "books": [
-          "And Then There Were None",
-          "Murder on the Orient Express",
-          "The A.B.C. Murders",
-          "The Murder of Roger Ackroyd"
-        ]
+        "books": ["Murder on the Orient Express", "And Then There Were None", "The Murder of Roger Ackroyd", "Death on the Nile"]
+      },
+      {
+        "name": "William Shakespeare",
+        "books": ["Hamlet", "Macbeth", "Romeo and Juliet", "Othello"]
+      },
+      {
+        "name": "Charles Dickens",
+        "books": ["Great Expectations", "A Tale of Two Cities", "Oliver Twist", "David Copperfield"]
       },
       {
         "name": "Jane Austen",
-        "books": [
-          "Pride and Prejudice",
-          "Sense and Sensibility",
-          "Emma",
-          "Mansfield Park"
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2025-08-23",
-    "authors": [
+        "books": ["Pride and Prejudice", "Sense and Sensibility", "Emma", "Persuasion"]
+      },
       {
-        "name": "J.R.R. Tolkien",
-        "books": [
-          "The Hobbit",
-          "The Fellowship of the Ring",
-          "The Two Towers",
-          "The Return of the King"
-        ]
+        "name": "Leo Tolstoy",
+        "books": ["War and Peace", "Anna Karenina", "The Death of Ivan Ilyich", "Resurrection"]
+      },
+      {
+        "name": "Fyodor Dostoevsky",
+        "books": ["Crime and Punishment", "The Brothers Karamazov", "The Idiot", "Demons"]
+      },
+      {
+        "name": "Homer",
+        "books": ["The Iliad", "The Odyssey", "The Hymns", "Batrachomyomachia"]
+      },
+      {
+        "name": "Victor Hugo",
+        "books": ["Les Misérables", "The Hunchback of Notre-Dame", "Toilers of the Sea", "Ninety-Three"]
       },
       {
         "name": "George Orwell",
-        "books": [
-          "Nineteen Eighty-Four",
-          "Animal Farm",
-          "Down and Out in Paris and London",
-          "Burmese Days"
-        ]
+        "books": ["1984", "Animal Farm", "Homage to Catalonia", "Down and Out in Paris and London"]
+      },
+      {
+        "name": "Mark Twain",
+        "books": ["Adventures of Huckleberry Finn", "The Adventures of Tom Sawyer", "A Connecticut Yankee in King Arthur’s Court", "The Prince and the Pauper"]
+      },
+      {
+        "name": "J.R.R. Tolkien",
+        "books": ["The Hobbit", "The Fellowship of the Ring", "The Two Towers", "The Return of the King"]
+      },
+      {
+        "name": "C.S. Lewis",
+        "books": ["The Lion, the Witch and the Wardrobe", "Prince Caspian", "The Screwtape Letters", "Mere Christianity"]
+      },
+      {
+        "name": "H.G. Wells",
+        "books": ["The Time Machine", "The War of the Worlds", "The Invisible Man", "The Island of Doctor Moreau"]
+      },
+      {
+        "name": "Jules Verne",
+        "books": ["Twenty Thousand Leagues Under the Sea", "Around the World in Eighty Days", "Journey to the Center of the Earth", "From the Earth to the Moon"]
+      },
+      {
+        "name": "Alexandre Dumas",
+        "books": ["The Count of Monte Cristo", "The Three Musketeers", "Twenty Years After", "The Man in the Iron Mask"]
+      },
+      {
+        "name": "Herman Melville",
+        "books": ["Moby-Dick", "Billy Budd", "Typee", "Bartleby the Scrivener"]
+      },
+      {
+        "name": "Emily Brontë",
+        "books": ["Wuthering Heights", "Poems by Currer, Ellis, and Acton Bell", "Gondal Poems", "Remembrance"]
+      },
+      {
+        "name": "Charlotte Brontë",
+        "books": ["Jane Eyre", "Shirley", "Villette", "The Professor"]
+      },
+      {
+        "name": "Mary Shelley",
+        "books": ["Frankenstein", "The Last Man", "Valperga", "Mathilda"]
+      },
+      {
+        "name": "Ernest Hemingway",
+        "books": ["The Old Man and the Sea", "A Farewell to Arms", "For Whom the Bell Tolls", "The Sun Also Rises"]
+      },
+      {
+        "name": "F. Scott Fitzgerald",
+        "books": ["The Great Gatsby", "Tender Is the Night", "This Side of Paradise", "The Beautiful and Damned"]
+      },
+      {
+        "name": "Harper Lee",
+        "books": ["To Kill a Mockingbird", "Go Set a Watchman", "Essays", "Letters"]
+      },
+      {
+        "name": "John Steinbeck",
+        "books": ["The Grapes of Wrath", "Of Mice and Men", "East of Eden", "Cannery Row"]
+      },
+      {
+        "name": "Gabriel García Márquez",
+        "books": ["One Hundred Years of Solitude", "Love in the Time of Cholera", "Chronicle of a Death Foretold", "The Autumn of the Patriarch"]
+      },
+      {
+        "name": "Toni Morrison",
+        "books": ["Beloved", "Song of Solomon", "The Bluest Eye", "Sula"]
+      },
+      {
+        "name": "George R.R. Martin",
+        "books": ["A Game of Thrones", "A Clash of Kings", "A Storm of Swords", "A Feast for Crows"]
+      },
+      {
+        "name": "Arthur Conan Doyle",
+        "books": ["A Study in Scarlet", "The Hound of the Baskervilles", "The Sign of Four", "The Adventures of Sherlock Holmes"]
+      },
+      {
+        "name": "Aldous Huxley",
+        "books": ["Brave New World", "Island", "Point Counter Point", "The Doors of Perception"]
+      },
+      {
+        "name": "J.D. Salinger",
+        "books": ["The Catcher in the Rye", "Franny and Zooey", "Nine Stories", "Raise High the Roof Beam, Carpenters"]
       },
       {
         "name": "Isaac Asimov",
-        "books": [
-          "I, Robot",
-          "Foundation",
-          "The Caves of Steel",
-          "The Naked Sun"
-        ]
+        "books": ["Foundation", "I, Robot", "The Gods Themselves", "The Caves of Steel"]
       },
       {
-        "name": "Haruki Murakami",
-        "books": [
-          "Norwegian Wood",
-          "Kafka on the Shore",
-          "1Q84",
-          "The Wind-Up Bird Chronicle"
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2025-08-24",
-    "authors": [
+        "name": "Ray Bradbury",
+        "books": ["Fahrenheit 451", "The Martian Chronicles", "Something Wicked This Way Comes", "Dandelion Wine"]
+      },
       {
-        "name": "Gabriel García Márquez",
-        "books": [
-          "One Hundred Years of Solitude",
-          "Love in the Time of Cholera",
-          "Chronicle of a Death Foretold",
-          "The Autumn of the Patriarch"
-        ]
+        "name": "Frank Herbert",
+        "books": ["Dune", "Dune Messiah", "Children of Dune", "God Emperor of Dune"]
+      },
+      {
+        "name": "Douglas Adams",
+        "books": ["The Hitchhiker’s Guide to the Galaxy", "The Restaurant at the End of the Universe", "Life, the Universe and Everything", "So Long, and Thanks for All the Fish"]
+      },
+      {
+        "name": "Kurt Vonnegut",
+        "books": ["Slaughterhouse-Five", "Cat’s Cradle", "Breakfast of Champions", "Mother Night"]
+      },
+      {
+        "name": "Jack London",
+        "books": ["The Call of the Wild", "White Fang", "Martin Eden", "The Sea-Wolf"]
+      },
+      {
+        "name": "Joseph Conrad",
+        "books": ["Heart of Darkness", "Lord Jim", "Nostromo", "The Secret Agent"]
+      },
+      {
+        "name": "E.M. Forster",
+        "books": ["A Passage to India", "Howards End", "A Room with a View", "Maurice"]
       },
       {
         "name": "Virginia Woolf",
-        "books": [
-          "Mrs Dalloway",
-          "To the Lighthouse",
-          "A Room of One's Own",
-          "Orlando"
-        ]
+        "books": ["Mrs. Dalloway", "To the Lighthouse", "Orlando", "The Waves"]
+      },
+      {
+        "name": "James Joyce",
+        "books": ["Ulysses", "A Portrait of the Artist as a Young Man", "Dubliners", "Finnegans Wake"]
+      },
+      {
+        "name": "Stephen King",
+        "books": ["The Shining", "It", "Misery", "The Stand"]
+      },
+      {
+        "name": "J.K. Rowling",
+        "books": ["Harry Potter and the Sorcerer’s Stone", "Harry Potter and the Chamber of Secrets", "Harry Potter and the Prisoner of Azkaban", "The Casual Vacancy"]
+      },
+      {
+        "name": "Colleen Hoover",
+        "books": ["It Ends with Us", "Verity", "Ugly Love", "Reminders of Him"]
+      },
+      {
+        "name": "James Patterson",
+        "books": ["Along Came a Spider", "Kiss the Girls", "Alex Cross’s Trial", "1st to Die"]
+      },
+      {
+        "name": "Dan Brown",
+        "books": ["The Da Vinci Code", "Angels & Demons", "The Lost Symbol", "Inferno"]
+      },
+      {
+        "name": "Suzanne Collins",
+        "books": ["The Hunger Games", "Catching Fire", "Mockingjay", "The Ballad of Songbirds and Snakes"]
+      },
+      {
+        "name": "Veronica Roth",
+        "books": ["Divergent", "Insurgent", "Allegiant", "Carve the Mark"]
+      },
+      {
+        "name": "Rick Riordan",
+        "books": ["The Lightning Thief", "The Sea of Monsters", "The Titan’s Curse", "The Battle of the Labyrinth"]
+      },
+      {
+        "name": "John Green",
+        "books": ["The Fault in Our Stars", "Looking for Alaska", "Paper Towns", "Turtles All the Way Down"]
+      },
+      {
+        "name": "Nicholas Sparks",
+        "books": ["The Notebook", "A Walk to Remember", "Dear John", "The Last Song"]
+      },
+      {
+        "name": "Margaret Atwood",
+        "books": ["The Handmaid’s Tale", "Oryx and Crake", "The Testaments", "Alias Grace"]
+      },
+      {
+        "name": "Gillian Flynn",
+        "books": ["Gone Girl", "Sharp Objects", "Dark Places", "The Grownup"]
+      },
+      {
+        "name": "E.L. James",
+        "books": ["Fifty Shades of Grey", "Fifty Shades Darker", "Fifty Shades Freed", "The Mister"]
+      },
+      {
+        "name": "Stephenie Meyer",
+        "books": ["Twilight", "New Moon", "Eclipse", "Breaking Dawn"]
+      },
+      {
+        "name": "Erin Morgenstern",
+        "books": ["The Night Circus", "The Starless Sea", "Flax-Golden Tales", "Short Stories"]
+      },
+      {
+        "name": "Sarah J. Maas",
+        "books": ["Throne of Glass", "A Court of Thorns and Roses", "Crescent City", "Tower of Dawn"]
+      },
+      {
+        "name": "Leigh Bardugo",
+        "books": ["Shadow and Bone", "Siege and Storm", "Ruin and Rising", "Six of Crows"]
+      },
+      {
+        "name": "Brandon Sanderson",
+        "books": ["Mistborn: The Final Empire", "The Way of Kings", "Words of Radiance", "Oathbringer"]
+      },
+      {
+        "name": "Patrick Rothfuss",
+        "books": ["The Name of the Wind", "The Wise Man’s Fear", "The Slow Regard of Silent Things", "Short Stories"]
+      },
+      {
+        "name": "Neil Gaiman",
+        "books": ["American Gods", "Coraline", "The Sandman", "Stardust"]
+      },
+      {
+        "name": "Michelle Obama",
+        "books": ["Becoming", "The Light We Carry", "Memoir Speeches", "Reflections"]
+      },
+      {
+        "name": "Barack Obama",
+        "books": ["Dreams from My Father", "The Audacity of Hope", "A Promised Land", "Of Thee I Sing"]
+      },
+      {
+        "name": "Yuval Noah Harari",
+        "books": ["Sapiens", "Homo Deus", "21 Lessons for the 21st Century", "Unstoppable Us"]
+      },
+      {
+        "name": "Malcolm Gladwell",
+        "books": ["The Tipping Point", "Blink", "Outliers", "Talking to Strangers"]
+      },
+      {
+        "name": "Walter Isaacson",
+        "books": ["Steve Jobs", "Leonardo da Vinci", "Einstein", "Benjamin Franklin"]
+      },
+      {
+        "name": "Stephen Hawking",
+        "books": ["A Brief History of Time", "The Universe in a Nutshell", "The Grand Design", "Black Holes and Baby Universes"]
+      },
+      {
+        "name": "Richard Dawkins",
+        "books": ["The Selfish Gene", "The God Delusion", "The Blind Watchmaker", "The Greatest Show on Earth"]
+      },
+      {
+        "name": "Carl Sagan",
+        "books": ["Cosmos", "Pale Blue Dot", "The Demon-Haunted World", "Contact"]
+      },
+      {
+        "name": "Maya Angelou",
+        "books": ["I Know Why the Caged Bird Sings", "Gather Together in My Name", "The Heart of a Woman", "Mom & Me & Mom"]
+      },
+      {
+        "name": "Anne Frank",
+        "books": ["The Diary of a Young Girl", "Tales from the Secret Annex", "Letters", "Stories"]
+      },
+      {
+        "name": "Dale Carnegie",
+        "books": ["How to Win Friends and Influence People", "How to Stop Worrying and Start Living", "The Leader in You", "The Quick and Easy Way to Effective Speaking"]
+      },
+      {
+        "name": "Napoleon Hill",
+        "books": ["Think and Grow Rich", "Success Through a Positive Mental Attitude", "You Can Work Your Own Miracles", "Outwitting the Devil"]
+      },
+      {
+        "name": "Robert Kiyosaki",
+        "books": ["Rich Dad Poor Dad", "Cashflow Quadrant", "Rich Dad’s Guide to Investing", "The Real Book of Real Estate"]
+      },
+      {
+        "name": "Paulo Coelho",
+        "books": ["The Alchemist", "Brida", "Veronika Decides to Die", "Eleven Minutes"]
+      },
+      {
+        "name": "Deepak Chopra",
+        "books": ["The Seven Spiritual Laws of Success", "Ageless Body Timeless Mind", "The Book of Secrets", "The Healing Self"]
+      },
+      {
+        "name": "Eckhart Tolle",
+        "books": ["The Power of Now", "A New Earth", "Stillness Speaks", "Guardians of Being"]
+      },
+      {
+        "name": "Rhonda Byrne",
+        "books": ["The Secret", "The Power", "The Magic", "Hero"]
+      },
+      {
+        "name": "Robin Sharma",
+        "books": ["The Monk Who Sold His Ferrari", "The 5AM Club", "The Leader Who Had No Title", "Who Will Cry When You Die?"]
+      },
+      {
+        "name": "Jordan B. Peterson",
+        "books": ["12 Rules for Life", "Beyond Order", "Maps of Meaning", "Essays & Lectures"]
+      },
+      {
+        "name": "Mark Manson",
+        "books": ["The Subtle Art of Not Giving a Fck", "Everything Is Fcked", "Models", "Love Is Not Enough"]
+      },
+      {
+        "name": "Haruki Murakami",
+        "books": ["Norwegian Wood", "Kafka on the Shore", "1Q84", "The Wind-Up Bird Chronicle"]
+      },
+      {
+        "name": "Khaled Hosseini",
+        "books": ["The Kite Runner", "A Thousand Splendid Suns", "And the Mountains Echoed", "Sea Prayer"]
+      },
+      {
+        "name": "Chimamanda Ngozi Adichie",
+        "books": ["Half of a Yellow Sun", "Americanah", "Purple Hibiscus", "We Should All Be Feminists"]
+      },
+      {
+        "name": "Isabel Allende",
+        "books": ["The House of the Spirits", "Eva Luna", "Of Love and Shadows", "Daughter of Fortune"]
+      },
+      {
+        "name": "Salman Rushdie",
+        "books": ["Midnight’s Children", "The Satanic Verses", "The Golden House", "Quichotte"]
+      },
+      {
+        "name": "Kazuo Ishiguro",
+        "books": ["The Remains of the Day", "Never Let Me Go", "Klara and the Sun", "An Artist of the Floating World"]
+      },
+      {
+        "name": "Orhan Pamuk",
+        "books": ["My Name Is Red", "Snow", "The Museum of Innocence", "The White Castle"]
+      },
+      {
+        "name": "Umberto Eco",
+        "books": ["The Name of the Rose", "Foucault’s Pendulum", "Baudolino", "The Prague Cemetery"]
+      },
+      {
+        "name": "Margaret Mitchell",
+        "books": ["Gone with the Wind", "Lost Laysen", "Essays", "Letters"]
+      },
+      {
+        "name": "Thomas Hardy",
+        "books": ["Tess of the d’Urbervilles", "Far from the Madding Crowd", "Jude the Obscure", "The Mayor of Casterbridge"]
+      },
+      {
+        "name": "Daphne du Maurier",
+        "books": ["Rebecca", "Jamaica Inn", "My Cousin Rachel", "The Birds"]
+      },
+      {
+        "name": "Ian McEwan",
+        "books": ["Atonement", "Amsterdam", "Enduring Love", "Saturday"]
+      },
+      {
+        "name": "Philip Pullman",
+        "books": ["Northern Lights (The Golden Compass)", "The Subtle Knife", "The Amber Spyglass", "La Belle Sauvage"]
+      },
+      {
+        "name": "Madeleine L’Engle",
+        "books": ["A Wrinkle in Time", "A Wind in the Door", "A Swiftly Tilting Planet", "Many Waters"]
+      },
+      {
+        "name": "Terry Pratchett",
+        "books": ["The Colour of Magic", "Mort", "Guards! Guards!", "Good Omens"]
+      },
+      {
+        "name": "Terry Brooks",
+        "books": ["The Sword of Shannara", "The Elfstones of Shannara", "The Wishsong of Shannara", "Running with the Demon"]
+      },
+      {
+        "name": "Michael Crichton",
+        "books": ["Jurassic Park", "The Lost World", "Congo", "Sphere"]
+      },
+      {
+        "name": "Ken Follett",
+        "books": ["The Pillars of the Earth", "World Without End", "Fall of Giants", "The Evening and the Morning"]
+      },
+      {
+        "name": "Wilbur Smith",
+        "books": ["River God", "The Seventh Scroll", "Birds of Prey", "When the Lion Feeds"]
+      },
+      {
+        "name": "Mario Puzo",
+        "books": ["The Godfather", "The Sicilian", "The Last Don", "Omertà"]
       }
     ]
   }
