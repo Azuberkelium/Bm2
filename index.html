@@ -1,0 +1,85 @@
+<script>
+    const bookDisplay = document.getElementById('book-title-display');
+    const scoreDisplay = document.getElementById('score');
+    const dropButtons = document.querySelectorAll('.button[data-drop-column]');
+    const gridColumns = document.querySelectorAll('.column');
+
+    let score = 0;
+    let booksInPlay = [];
+    let authors = {};
+    let currentBookIndex = 0;
+
+    // This function now just loads all the authors and shuffles them
+    async function loadDailyPuzzle() {
+        try {
+            const response = await fetch('books.json');
+            const data = await response.json();
+            
+            // Extract all authors from all dates and combine them
+            let allAuthors = [];
+            data.forEach(day => {
+                allAuthors = allAuthors.concat(day.authors);
+            });
+            
+            // Randomly shuffle all authors
+            allAuthors.sort(() => Math.random() - 0.5);
+
+            // Select the first 4 authors for today's game
+            const authorsForToday = allAuthors.slice(0, 4);
+
+            if (authorsForToday.length === 4) {
+                // Flatten the books into a single array for the game
+                authorsForToday.forEach(author => {
+                    author.books.forEach(book => {
+                        booksInPlay.push(book);
+                        authors[book] = author.name;
+                    });
+                });
+                // Shuffle the books for a random order
+                booksInPlay.sort(() => Math.random() - 0.5);
+                updateUI();
+            } else {
+                bookDisplay.textContent = 'Not enough authors for the puzzle!';
+            }
+        } catch (error) {
+            console.error('Error loading the puzzle:', error);
+            bookDisplay.textContent = 'Could not load the daily puzzle.';
+        }
+    }
+
+    function updateUI() {
+        if (currentBookIndex < booksInPlay.length) {
+            bookDisplay.textContent = booksInPlay[currentBookIndex];
+        } else {
+            bookDisplay.textContent = 'Game Over!';
+            // Add the logic to check for a win here
+        }
+        scoreDisplay.textContent = `Score: ${score}`;
+    }
+
+    dropButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            if (currentBookIndex >= booksInPlay.length) {
+                return; // Game is over
+            }
+
+            const columnIndex = button.dataset.dropColumn;
+            const column = gridColumns[columnIndex];
+            
+            if (column.children.length < 4) {
+                const currentBookTitle = booksInPlay[currentBookIndex];
+                const newBook = document.createElement('div');
+                newBook.classList.add('cell', 'book');
+                newBook.textContent = currentBookTitle;
+                column.appendChild(newBook);
+                
+                currentBookIndex++;
+                updateUI();
+            } else {
+                alert('This column is full!');
+            }
+        });
+    });
+
+    loadDailyPuzzle();
+</script>
